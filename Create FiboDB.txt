@@ -1,0 +1,19 @@
+CREATE DATABASE FiboDB
+GO
+
+USE FiboDB
+GO
+
+CREATE TABLE Fibo
+(
+	ID int primary key ,
+	Value int,
+	CreatedAt Datetime
+)
+GO
+
+Insert Into Fibo values (1,1,GETDATE())
+Insert Into Fibo values (2,1,GETDATE())
+Insert Into Fibo values (3,2,GETDATE())
+Insert Into Fibo values (4,3,GETDATE())
+GO
